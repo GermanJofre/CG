@@ -10,7 +10,7 @@
 	<groupId>Lippia-Web-Example-Project</groupId>
 	<artifactId>LippiaWebExampleProject</artifactId>
 	<version>1.0.0</version>
-	<name>crowdar_automation_web</name>
+	<name>compragamer_automation_web</name>
 
 	<packaging>jar</packaging>
 
@@ -35,7 +35,7 @@
 		<crowdar.cucumber.option>src/test/resources/web/features ${cucumber.hooks} ${cucumber.stepsDefinitions} --tags 'not @Ignore' --tags ${cucumber.tags} ${cucumber.report}</crowdar.cucumber.option>
 
 		<!-- client project custom properties -->
-		<web-app.url>http://www.google.com.ar</web-app.url>
+		<web-app.url>https://compragamer.com</web-app.url>
 
 	</properties>
 	<profiles>
