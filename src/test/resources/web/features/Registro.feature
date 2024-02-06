@@ -45,12 +45,12 @@ Feature: El cliente quiere registrarse en Compra Gamer
       | nombre | apellido | email      | codigoarea | n°telefono | contraseña | repetircontraseña | mensaje      |
       | Eva    | Pru      | @gmail.com | lolo       | lala       | qwertY12   | qwertY12          | Sólo números |
 
-    @ValoresIncorrectos @telefono @Exede @CodigoArea @Fallo
+    @ValoresIncorrectos @telefono @Excede @CodigoArea @Fallo
     Examples:
       | nombre | apellido | email      | codigoarea | mensaje          |
       | Eva    | Pru      | @gmail.com | 12345      | Máximo 5 números |
 
-    @ValoresIncorrectos @telefono @Exede @n°telefono
+    @ValoresIncorrectos @telefono @Excede @n°telefono
     Examples:
       | nombre | apellido | email      | codigoarea | n°telefono  | mensaje           |
       | Eva    | Pru      | @gmail.com | 1234       | 12345678912 | Máximo 10 números |

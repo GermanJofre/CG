@@ -56,6 +56,7 @@ Feature: El cliente quiere interactuar con el inicio de Compra Gamer
   Scenario Outline: El cliente busca un producto en el buscador
     When Se dirige al buscador
     And Ingresa el '<producto>' que quiere buscar
+    And Selecciona el producto
     Then Se muestra el producto buscado
 
     Examples:
