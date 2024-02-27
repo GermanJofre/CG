@@ -5,9 +5,8 @@ Feature: El cliente quiere interactuar con el inicio de Compra Gamer
     Given El cliente se encuentra en la main page
 
   @ProductoDestacados
-  Scenario: El cliente seleciona uno de los productos destacados
-    When Ve los productos destacados
-    And Clickea en ver producto
+  Scenario: El cliente quiere ver uno de los productos destacados
+    When Se dirige a uno de los productos destacados
     Then Se encuentra en el producto destacado
 
   @ProductosNovedosos
